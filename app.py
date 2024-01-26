@@ -7,21 +7,28 @@ JOBS = [
         'id': 1,
         'title':'Data Analyst',
         'location': 'Nairobi, Kenya',
-        'salary': '$500'
+        'salary': '$50,000'
     },
      {
         'id': 2,
         'title':'Data Scientist',
         'location': 'Mombasa, Kenya',
-        'salary': '$5000'
+        'salary': '$50,000'
     },
      {
         'id': 3,
         'title':'Frontend Engineer',
         'location': 'Remote',
-        'salary': '$400'
-    }
+        'salary': '$40,000'
+    },
+    {
+        'id': 4,
+        'title':'Backend Engineer',
+        'location': 'San Francisco, USA',
+        'salary': '$120,000'
+    },
 ]
+
 
 @app.route("/")
 def hello_world():
